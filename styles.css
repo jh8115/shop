@@ -1,0 +1,168 @@
+#banner {
+  display:inline-block;
+  border:solid white;
+  font-size:40;
+  width:99%;
+  text-align:center;
+  height:50;
+  color:white;
+}
+
+#bigtile {
+  border: solid white;
+  width:99%;
+  height:200;
+}
+
+#product{
+  height:25;
+}
+
+#ps5 {
+  width:98%;
+  height:200px;
+  position:absolute;
+  display: inline-block;
+  top:92px;
+  left:6px;
+  animation-duration:10s;
+  animation:ps5 10s infinite;
+  animation-direction: normal;
+}
+
+@keyframes ps5 {
+  0% {
+   top:92px;
+   left:6px;
+  
+  }
+  30%{
+    top:92px;
+    left:6px;
+  }
+  33%{
+    top:92px;
+    left:600px;  
+  }
+  100% {
+    top:92px;
+    left:6000px;  
+  }
+}
+
+@keyframes xbox {
+  0% {
+   top:92px;
+   left:-600px;
+  } 
+  30%{
+    top:92px;
+    left:-600px;
+  }
+  33%{
+    top:92px;
+    left:6px;
+  }
+  
+  66%{
+    
+  }
+  100% {
+    top:92px;
+    left:6px;
+  }
+  
+  
+}
+
+@keyframes cod{
+  0%{
+   top:92px;
+   left:-600px;
+  }
+  63%{
+    top:92px;
+   left:-600px;
+  }
+  66%{
+   top:92px;
+   left:6px;
+}
+}
+#cod {
+  height:200px;
+  width:98%;
+  position:absolute;
+  display: inline-block;
+  top:92px;
+  left:6px;
+  animation-duration:10s;
+  animation:cod 10s infinite;
+  animation-direction: normal
+  animation-delay:3s;
+}
+
+
+#xbox{
+  height:200px;
+  width:98%;
+  position:absolute;
+  display: inline-block;
+  top:92px;
+  left:6px;
+  animation-duration:10s;
+  animation:xbox 10s infinite;
+  animation-direction: normal
+  animation-delay:3s;
+}
+
+body{
+  background-image: url(https://fsa.zobj.net/crop.php?r=pK0Avc1HK2HQ_lxJTUT7HHQnFb3zjI0JxlmCbtrmsUEnXpBtMNxPlu0LuhiKiUu1Vd-rhjT-wnRVay4GDZ4VyqvqEhXvQ6R-CxRE_XiWXjA8BOGv1jUxdh8im0igtw7BSnQfpVyr68PkzEB9);
+  display: table;
+    width:97.7%;
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0.9, 0.4) ), url(https://fsa.zobj.net/crop.php?r=pK0Avc1HK2HQ_lxJTUT7HHQnFb3zjI0JxlmCbtrmsUEnXpBtMNxPlu0LuhiKiUu1Vd-rhjT-wnRVay4GDZ4VyqvqEhXvQ6R-CxRE_XiWXjA8BOGv1jUxdh8im0igtw7BSnQfpVyr68PkzEB9);
+    background-position:center;
+    height:100%;
+  background-repeat:no-repeat;
+  border:7px solid white;
+  margin:1;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: ;
+  font:cursive;
+  
+}
+
+li {
+  float: left;
+  border:solid white;
+  font:cursive;
+  margin:1;
+}
+
+li:last-child {
+  border-right: black; 
+  font:cursive;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px 21px;
+  text-decoration: none;
+  font:cursive;
+}
+
+li a:hover:not(.active) {
+  background-color:blue;
+  font:cursive;
+}
+
+.active {
+  background-color:green;
+  font:cursive;
